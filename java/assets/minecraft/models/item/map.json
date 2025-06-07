@@ -1,0 +1,1 @@
+{"parent":"item/generated","textures":{"layer0":"item/map"},"overrides":[{"predicate":{"custom_model_data":1010},"model":"phone:guis/invisibleitem"},{"predicate":{"custom_model_data":1011},"model":"phone:guis/wifi_1"},{"predicate":{"custom_model_data":1012},"model":"phone:guis/wifi_2"},{"predicate":{"custom_model_data":1013},"model":"phone:guis/wifi_3"}]}
