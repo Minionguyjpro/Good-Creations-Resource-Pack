@@ -17,14 +17,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Prepare java files
-        run: |
-          mkdir java-extracted
-          cp -r java/* java-extracted/
-
       - name: Create ZIP archive
         run: |
-          zip -r Good-Creations-Resource-Pack-Java.zip java-extracted
+          cd java
+          zip -r ../Good-Creations-Resource-Pack-Java.zip .
+          cd ..
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
