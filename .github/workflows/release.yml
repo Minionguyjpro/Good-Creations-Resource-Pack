@@ -1,5 +1,8 @@
 name: Release Java Files as ZIP
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   push:
